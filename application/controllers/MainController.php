@@ -25,7 +25,7 @@ class MainController extends Controller
 
         $categories = $category->getCategories();
 
-        $user = $_SESSION['authorize']['name'];
+        $user = $_SESSION;
 
         $vars = [
             'mostPopularArticles' => $mostPopularArticles,
