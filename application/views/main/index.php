@@ -32,7 +32,7 @@
         </form>
     </div>
 
-    <?php if (!empty($user)) { ?>
+    <?php if (isset($user['authorize'])) { ?>
         <div class="article">
             <h4>Мои статьи:</h4>
             <?php if (!empty($myArticles)) { ?>
